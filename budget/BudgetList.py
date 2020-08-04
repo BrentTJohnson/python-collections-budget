@@ -48,7 +48,7 @@ def main():
     for expense in expenses.list:
         myBudgetList.append(expense.amount)
         # Test __iter__ object
-        print('The count of all expenses: ' + str(len(myBudgetList)))
+    print('The count of all expenses: ' + str(len(myBudgetList)))
     for entry in myBudgetList:
         print(entry)
     #creates visual data graph
